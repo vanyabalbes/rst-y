@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "kredyt",
+  "version": "${version}",
+  "name": "Кредитна Життя",
+  "description": "Квартири, кредити, мікрозайми, ATB, шаурмічна, Аврора, Нова Пошта, Шахед і Фіді Міді.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["ua.kredyt.KredytMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
